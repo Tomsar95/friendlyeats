@@ -41,23 +41,32 @@
        https://firebase.google.com/docs/web/setup#available-libraries -->
 
 
-  <script>
-    // Your web app's Firebase configuration
-    var firebaseConfig = {
-      apiKey: "YoUr_RaNdOm_API_kEy",
-      authDomain: "your-project-name.firebaseapp.com",
-      databaseURL: "https://your-project-name.firebaseio.com",
-      projectId: "your-project-name",
-      storageBucket: "your-project-name.appspot.com",
-      messagingSenderId: "012345678901",
-      appId: "1:109876543210:web:r4nd0mH3xH45h",
-      measurementId: "G-S0M3V4LU3"
-    };
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
 
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-    firebase.analytics();
-  </script>
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.5.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.5.1/firebase-firestore.js"></script>
+
+  <script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyATjBKDtHAdXGEqNJ8xN2F4H73aaqhDqAY",
+    authDomain: "friendlyeats-11107.firebaseapp.com",
+    databaseURL: "https://friendlyeats-11107.firebaseio.com",
+    projectId: "friendlyeats-11107",
+    storageBucket: "friendlyeats-11107.appspot.com",
+    messagingSenderId: "155448420253",
+    appId: "1:155448420253:web:20eb4cf5284e69447e7174",
+    measurementId: "G-NCCTJSPKN4"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </head>
 <body>
   <!-- This script installs service_worker.js to provide PWA functionality to
